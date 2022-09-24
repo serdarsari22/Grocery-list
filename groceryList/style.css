@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    background: linear-gradient(
+        wheat,
+        #F1A661
+    );
+    background-repeat: no-repeat;
+}
+.box{
+    width: 700px;
+    padding: 30px 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title{
+    background-color: aliceblue;
+    width:700px;
+    padding: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.requirement{
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 70px 50px;
+}
+
+.requirement input{
+    width: 70%;
+    height: 30px;
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid rgb(173,173,173);
+    padding: 10px;
+}
+.requirement input:focus{
+    outline: none;
+    border-color: #2a434d;
+}
+
+.requirement button{
+    position: relative;
+    width: 20%;
+    height: 50px;
+    border-radius: 4px;
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    float: right;
+    padding: 10px;
+    background-color: #E3B7A0;
+}
+
+.requirement button:focus{
+    outline: none;
+    border-color: #2a434d;
+}
+
+.requirement button:hover{
+    background-color: wheat;
+}
+
+#tag{
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.list{
+    background-color: aliceblue;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius:4px ;
+    border:1px solid #e3b7a0;
+
+}
+
+.list span{
+    font-family:'roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.list button{
+    background-color: wheat;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+i.bx.bxs-check-square {
+    font-size: 20px;
+}
+.completed{
+    text-decoration: none;
+}
+
